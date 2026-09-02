@@ -4,5 +4,16 @@
     <title>VoiceStudio Updates</title>
     <link>https://github.com/gambidrissi-dev/VOICE-STUDIO-Share</link>
     <description>Mises à jour de VoiceStudio</description>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Wed, 02 Sep 2026 19:42:08 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/gambidrissi-dev/VOICE-STUDIO-Share/releases/download/v1.0.0/VoiceStudio-1.0.0.zip"
+                 sparkle:edSignature="Qjr/DVJilBqFUk0ythiie9B4sobSU4SnNpfIPywF5O9FQIj/bQHaFhff7qVAlEqTYc7Mp3TiOjIO/RYOcaUqBA=="
+                 length="1105388"
+                 type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
