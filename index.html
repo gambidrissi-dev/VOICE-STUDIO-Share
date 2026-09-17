@@ -38,6 +38,7 @@
   .steps { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
   .steps b { color: var(--text); }
   ul.features { color: var(--muted); font-size: 0.92rem; line-height: 1.75; padding-left: 1.1rem; margin: 0; }
+  ul.features b { color: var(--text); font-weight: 600; }
   footer { color: var(--muted); font-size: 0.8rem; text-align: center; margin-top: 2rem; }
   a.plain { color: var(--accent); }
 </style>
@@ -58,11 +59,11 @@
 
   <div class="card">
     <ul class="features">
-      <li>Clonage de voix et synthèse via mlx-audio, sur Apple Silicon</li>
-      <li>Tout tourne en local : aucune donnée envoyée ailleurs</li>
-      <li>Interface web servie par l'app elle-même</li>
-      <li>Backend Python embarqué, rien à installer à côté</li>
-
+      <li><b>Plusieurs modèles de synthèse vocale</b> — Qwen3-TTS, CSM-1b, Kokoro, et extensible à tout repo HuggingFace compatible mlx-audio depuis les Paramètres.</li>
+      <li><b>Clonage vocal à partir d'un échantillon</b> — dépose un fichier audio dans n'importe quel format, converti automatiquement en interne.</li>
+      <li><b>Export dans quatre formats</b> — WAV, M4A, AIFF ou FLAC au choix.</li>
+      <li><b>Indicateur clair</b> — l'app dit si la génération se fait avec ou sans clonage selon le modèle choisi.</li>
+      <li><b>100% local sur Apple Silicon</b> — rien n'est envoyé ailleurs, via mlx-audio.</li>
     </ul>
   </div>
 
